@@ -1,0 +1,35 @@
+
+
+let o;
+let x;
+let player_1;
+let player_2;
+
+
+
+let box = document.getElementsByClassName("case");
+for (let i = 0; i < box.length; i++) {
+    box[i].addEventListener("click", function () {
+        creation_game();
+
+    });
+}
+
+function creation_game(click_gauche, click_droit) {
+    if (click_gauche === "o") {
+        o.style.backgroundImage = "url ('public/assets/images/o.png')";
+
+    }
+    if (click_droit === "x") {
+        x.style.backgroundImage = "url ('public/assets/images/x.png')";
+
+    }
+
+}
+
+
+const button = document.querySelector('button');
+
+button.addEventListener('click', event => {
+  button.innerHTML = `Nombre de clics : ${event.detail}`;
+});

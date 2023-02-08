@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+
+
+}
+#title{
+text-align: center;
+    text-decoration: underline;
+    text-decoration-color: deeppink;
+    color: blue;
+}
+
+
+
+.case{
+     border-style:solid;
+    font-size: 10rem;
+    height: 15rem;
+    width: 50rem;
+
+}
+
+#img{
+    font-size: 10rem;
+}
+
+#o0{
+margin-right: 15rem;
+}
