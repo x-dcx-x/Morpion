@@ -8,64 +8,62 @@ html {
     font-size: 65.5%;
 }
 
-#content {
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 5rem;
-
-
 }
-#title{
-text-align: center;
+
+#title {
+    text-align: center;
     text-decoration: underline;
     text-decoration-color: deeppink;
     color: blue;
 }
 
 
+#c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8, #c9 {
 
-.case{
-
-     border-style:solid;
+    border-style: solid;
     font-size: 10rem;
     height: 15rem;
-    width: 50rem;
+    width: 15rem;
 
 }
 
-#content_lines{
-font-size: 5rem;
+#content_lines {
+    font-size: 5rem;
 }
 
-#line_1_o,#line_2_o,#line_3_o{
+#line_1_o, #line_2_o, #line_3_o {
     display: flex;
     flex-direction: row;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10rem;
     width: 40%;
-    justify-content:space-around;
+    justify-content: space-around;
 
 }
 
-#line_1_2_3_o{
+#line_1_2_3_o {
     margin-top: -42rem;
 }
 
-#line_1_x,#line_2_x,#line_3_x{
+#line_1_x, #line_2_x, #line_3_x {
     display: flex;
     flex-direction: row;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10rem;
     width: 40%;
-    justify-content:space-around;
+    justify-content: space-around;
 
 }
 
-#line_1_2_3_x{
-    margin-top:-30rem;
+#line_1_2_3_x {
+    margin-top: -30rem;
 }
 
