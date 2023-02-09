@@ -27,6 +27,7 @@ text-align: center;
 
 
 .case{
+
      border-style:solid;
     font-size: 10rem;
     height: 15rem;
@@ -34,10 +35,37 @@ text-align: center;
 
 }
 
-#img{
-    font-size: 10rem;
+#content_lines{
+font-size: 5rem;
 }
 
-#o0{
-margin-right: 15rem;
+#line_1_o,#line_2_o,#line_3_o{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10rem;
+    width: 40%;
+    justify-content:space-around;
+
 }
+
+#line_1_2_3_o{
+    margin-top: -42rem;
+}
+
+#line_1_x,#line_2_x,#line_3_x{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10rem;
+    width: 40%;
+    justify-content:space-around;
+
+}
+
+#line_1_2_3_x{
+    margin-top:-30rem;
+}
+
