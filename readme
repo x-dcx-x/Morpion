@@ -117,3 +117,37 @@ function choixplayer (){
 
     }
 }
+
+
+
+// ///// Fin de ligne Horizontal (condition de victoire ) ///////
+//
+//
+// ////////  Ligne vertical  (condition de victoire) /////
+//
+// function Condition_Vic_1Vertical() {
+//     if (O0 === C1) {
+//         (O3 === C4)
+//         (O6 === C7)
+//         console.log("test")
+//     }
+//
+//
+// }
+//
+// function Condition_Vic_2Vertical() {
+//     if (O1 === C2) {
+//         (O4 === C5)
+//         (O7 === C8)
+//         console.log("test")
+//     }
+// }
+//
+//
+// function Condition_Vic_3vertical() {
+//     if (O2 === C3) {
+//         (O5 === C6)
+//         (O8 === C9)
+//         console.log("test")
+//     }
+// }
