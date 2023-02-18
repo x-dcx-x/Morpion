@@ -1,4 +1,4 @@
-//j' ai bouclé les cases et avec un "event click"+ désactivation du clic droit
+//j'ai bouclé les cases et avec un "event click"+ désactivation du clic droit
 document.addEventListener('contextmenu', function (event) {
     event.preventDefault();
 });
@@ -263,9 +263,9 @@ C9.addEventListener("mouseup", function (event) {
 
 function Condition_Vic_1Horizontal() {
 
-    if (O0.innerHTML === click_gauche && O1.innerHTML === click_gauche && O2.innerHTML === click_gauche) {
+    if (O0.innerHTML === click_gauche && O1.innerHTML === click_gauche && O2.innerHTML === click_gauche || O0.innerHTML === click_droit && O1.innerHTML === click_droit && O2.innerHTML === click_droit) {
         gagnant.innerHTML = "Fin de partie ! Le O gagne GG";
-    } else if (O0.innerHTML === click_droit && O1.innerHTML === click_droit && O2.innerHTML === click_droit) {
+    } else if (X0.innerHTML === click_droit && X1.innerHTML === click_droit && X2.innerHTML === click_droit) {
         gagnant.innerHTML = "Fin de partie ! Le X gagne GG";
     }
 }
@@ -274,7 +274,7 @@ function Condition_Vic_2Horizontal() {
 
     if (O3.innerHTML === click_gauche && O4.innerHTML === click_gauche && O5.innerHTML === click_gauche) {
         gagnant.innerHTML = "Fin de partie ! Le O gagne GG";
-    } else if (O3.innerHTML === click_droit && O4.innerHTML === click_droit && O5.innerHTML === click_droit) {
+    } else if (X3.innerHTML === click_droit && X4.innerHTML === click_droit && X5.innerHTML === click_droit) {
         gagnant.innerHTML = "Fin de partie ! Le X gagne GG";
     }
 
@@ -284,7 +284,7 @@ function Condition_Vic_3Horizontal() {
 
     if (O6.innerHTML === click_gauche && O7.innerHTML === click_gauche && O8.innerHTML === click_gauche) {
         gagnant.innerHTML = "Fin de partie ! Le O gagne GG";
-    } else if (O6.innerHTML === click_droit && O7.innerHTML === click_droit && O8.innerHTML === click_droit) {
+    } else if (X6.innerHTML === click_droit && X7.innerHTML === click_droit && X8.innerHTML === click_droit) {
         gagnant.innerHTML = "Fin de partie ! Le X gagne GG";
     }
 
@@ -299,7 +299,7 @@ function Condition_Vic_3Horizontal() {
 function Condition_Vic_1Vertical() {
     if (O0.innerHTML === click_gauche && O3.innerHTML === click_gauche && O6.innerHTML === click_gauche) {
         gagnant.innerHTML = "Fin de partie ! Le O gagne GG";
-    } else if (O0.innerHTML === click_droit && O3.innerHTML === click_droit && O6.innerHTML === click_droit) {
+    } else if (X0.innerHTML === click_droit && X3.innerHTML === click_droit && X6.innerHTML === click_droit) {
         gagnant.innerHTML = "Fin de partie ! Le X gagne GG";
     }
 
@@ -308,7 +308,7 @@ function Condition_Vic_1Vertical() {
 function Condition_Vic_2Vertical() {
     if (O1.innerHTML === click_gauche && O4.innerHTML === click_gauche && O7.innerHTML === click_gauche) {
         gagnant.innerHTML = "Fin de partie ! Le O gagne GG";
-    } else if (O1.innerHTML === click_droit && O4.innerHTML === click_droit && O7.innerHTML === click_droit) {
+    } else if (X1.innerHTML === click_droit && X4.innerHTML === click_droit && X7.innerHTML === click_droit) {
         gagnant.innerHTML = "Fin de partie ! Le X gagne GG";
     }
 }
@@ -317,12 +317,12 @@ function Condition_Vic_2Vertical() {
 function Condition_Vic_3vertical() {
     if (O2.innerHTML === click_gauche && O5.innerHTML === click_gauche && O8.innerHTML === click_gauche) {
         gagnant.innerHTML = "Fin de partie ! Le O gagne GG";
-    } else if (O2.innerHTML === click_droit && O5.innerHTML === click_droit && O8.innerHTML === click_droit) {
+    } else if (X2.innerHTML === click_droit && X5.innerHTML === click_droit && X8.innerHTML === click_droit) {
         gagnant.innerHTML = "Fin de partie ! Le X gagne GG";
     }
 }
 
-////////  Fin de  Ligne vertical  (condition de victoire) /////
+////////  Fin de  Ligne vertical (condition de victoire) /////
 
 
 
@@ -334,18 +334,18 @@ function Condition_Vic_3vertical() {
 function ligne_Oblique_1_5_9(){
     if (O0.innerHTML === click_gauche && O4.innerHTML === click_gauche && O8.innerHTML === click_gauche) {
         gagnant.innerHTML = "Fin de partie ! Le O gagne GG";
-    } else if (O0.innerHTML === click_droit && O4.innerHTML === click_droit && O8.innerHTML === click_droit) {
+    } else if (X0.innerHTML === click_droit && X4.innerHTML === click_droit && X8.innerHTML === click_droit) {
         gagnant.innerHTML = "Fin de partie ! Le X gagne GG";
     }
 
 }
 
-////////  Fin de  Ligne oblique  (condition de victoire) /////
+////////  Fin de  Ligne oblique (condition de victoire) /////
 
 function ligne_Oblique_7_5_3(){
     if (O2.innerHTML === click_gauche && O4.innerHTML === click_gauche && O6.innerHTML === click_gauche) {
         gagnant.innerHTML = "Fin de partie ! Le O gagne GG";
-    } else if (O2.innerHTML === click_droit && O4.innerHTML === click_droit && O6.innerHTML === click_droit) {
+    } else if (X2.innerHTML === click_droit && X4.innerHTML === click_droit && X6.innerHTML === click_droit) {
         gagnant.innerHTML = "Fin de partie ! Le X gagne GG";
     }
 
